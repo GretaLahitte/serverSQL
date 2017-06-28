@@ -1,0 +1,8 @@
+{
+    "GET/" : {"controler": "index"},
+    "GET/index" : {"controler": "index" },
+    "GET/login" : {"controler": "login" },
+    "GET/logout" : {"controler" : "logout"},
+    "GET/users" : {"controler" : "selectAllSQL","view":"users","sql_query":"SELECT * FROM users"}
+        
+}

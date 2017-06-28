@@ -1,0 +1,27 @@
+{
+  "name": "croix_rouge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.16.0",
+    "colors": "^1.1.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "express-session": "^1.15.3",
+    "hbs": "~4.0.1",
+    "morgan": "~1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg": "^6.1.5",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.30.4",
+    "serve-favicon": "~2.3.2",
+    "session": "^0.1.0"
+  }
+}

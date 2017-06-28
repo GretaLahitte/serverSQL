@@ -1,0 +1,8 @@
+<div class="conteneur">
+<h1>Express App : {{title}}</h1><br>
+<select name="personnel">
+	{{#each result}}
+		<option value="{{this.login}}">{{this.firstname}}</option>
+	{{/each}}
+</select>
+</div>

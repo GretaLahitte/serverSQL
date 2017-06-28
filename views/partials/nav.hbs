@@ -1,0 +1,13 @@
+<nav class="barnav">
+<ul id="nav">
+<li><a href="/index">Accueil</a></li>
+{{#compare connected 'true' operator='=='}}
+		<li><a href="/users">Users</a></li>
+		<li><a href="/logout">Déconnexion</a></li>
+    {{else}}
+		<li><a href="/login">Connexion</a></li>
+{{/compare}}
+
+</nav>
+
+
